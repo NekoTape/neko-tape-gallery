@@ -1,121 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Neko Tape's Penguin Mod Extensions</title>
-  <link rel="icon" href="./logo.svg" />
-  <!--<link href="./css2" rel="stylesheet" />-->
-  <!--<link href="./panel-ui.css" rel="stylesheet" />-->
-  <style>
-    body {
-      background-color: #111;
-      color: #fff;
-      font-family: 'Lilita One', sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    .navBar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 10px 20px;
-      background-color: #222;
-    }
-    .navHeader {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .navHeader span {
-      display: block;
-    }
-    .logo-img {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-    }
-    .innerNav, .ext-div {
-      padding: 10px 20px;
-    }
-    .ext-holder {
-      display: flex;
-      margin: 20px 0;
-      align-items: center;
-    }
-    .ext-holder img {
-      width: 300px;
-      margin-right: 20px;
-    }
-    .ext-data pre {
-      margin: 5px 0;
-      white-space: pre-wrap;
-    }
-    .desc-breaker {
-      height: 10px;
-    }
-    a {
-      color: #00aaff;
-      text-decoration: none;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neko Tape's Extension Gallery</title>
+    <link rel="icon" href="images/neko-tape-logo.png" />
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <div class="navBar">
-    <div class="navHeader">
-      <img class="logo-img" src="images/neko-tape-logo.png" alt="Neko Tape Logo" />
-      <div>
-        <span class="title">Neko Tape's Penguin Mod Extensions</span>
-        <span class="header">
-          Extensions for Penguin Mod, made by Neko Tape.
-        </span>
-      </div>
-    </div>
-  </div>
-
-  <div class="innerNav">
-    <p><strong>Made by:</strong> Neko Tape</p>
-    <p><strong>Youtube:</strong> <a href="https://www.youtube.com/c/NekoTape" target="_blank">https://www.youtube.com/c/NekoTape</a></p>
-    <p><strong>Linktree:</strong> <a href="https://linktr.ee/nekotape" target="_blank">https://linktr.ee/nekotape</a></p>
-  </div>
-
-  <div class="innerNav">
-    <h2>Settings</h2>
-    <ul>
-      <li>Copy extensions by code</li>
-      <li>Download extensions by file</li>
-    </ul>
-  </div>
-
-  <div class="ext-div">
-    <h2>Extensions</h2>
-
-    <div class="ext-holder">
-      <img src="./Script-Channels.svg" alt="Script Channels Placeholder" />
-      <div class="ext-data">
-        <pre><strong>Title:</strong> Script Channels</pre>
-        <pre class="desc-breaker"></pre>
-        <pre>Control scripts and alerts sprites/clones through channels.</pre>
-      </div>
+    <div class="navBar">
+        <div class="navHeader">
+            <img src="images/neko-tape-logo.png" alt="Neko Tape Logo" />
+            <div>
+                <span class="title">Neko Tape's Extension Gallery</span>
+                <span class="header">
+                    Extensions for Penguin Mod.
+                </span>
+            </div>
+        </div>
+        <div class="link-buttons">
+            <a href="https://www.youtube.com/c/NekoTape" target="_blank" class="link-box">
+                <img src="images/youtube-icon.png" alt="YouTube Logo" class="icon">
+                <span>YouTube</span>
+            </a>
+            <a href="https://linktr.ee/nekotape" target="_blank" class="link-box">
+                <img src="images/linktree-icon.png" alt="Linktree Logo" class="icon">
+                <span>Linktree</span>
+            </a>
+        </div>
     </div>
 
-    <div class="ext-holder">
-      <img src="./Extra-Costumes.svg" alt="Extra Costumes Placeholder" />
-      <div class="ext-data">
-        <pre><strong>Title:</strong> Extra Costumes</pre>
-        <pre class="desc-breaker"></pre>
-        <pre>Missing blocks for working with other costume extensions.</pre>
-      </div>
-    </div>
+    <h2>Please load extensions unsandboxed or they won't load.</h2>
+    <h1 class="ext-title">★ Extensions ★</h1>
 
-    <div class="ext-holder">
-      <img src="./Missing-Operators.svg" alt="Missing Operators Placeholder" />
-      <div class="ext-data">
-        <pre><strong>Title:</strong> Missing Operators</pre>
-        <pre class="desc-breaker"></pre>
-        <pre>Missing blocks for working with operators.</pre>
-      </div>
+    <div class="ext-div">
+
+
+        <div class="ext-holder" style="opacity: 1;">
+            <img loading="lazy" draggable="false" id="Script-Channels" src="images/Script-Channel.svg"
+                style="width: 300px;">
+            <div class="ext-data">
+                <pre>Control scripts and alerts sprites/clones through channels</pre>
+                <pre><b>Made By: </b>Neko Tape</pre>
+                <pre class="update-date">Last Updated: 01/06/2025</pre>
+            </div>
+        </div>
+
+        <div class="ext-holder" style="opacity: 1;">
+            <img loading="lazy" draggable="false" id="Extra-Costumes" src="images/Extra-Costumes.svg"
+                style="width: 300px;">
+            <div class="ext-data">
+                <pre>Missing blocks for working with other costume extensions.</pre>
+                <pre><b>Made By: </b>Neko Tape</pre>
+                <pre class="update-date">Last Updated: 01/06/2025</pre>
+            </div>
+        </div>
+
+        <div class="ext-holder" style="opacity: 1;">
+            <img loading="lazy" draggable="false" id="Missing-Operators" src="images/Missing-Operators.svg"
+                style="width: 300px;">
+            <div class="ext-data">
+                <pre>Missing blocks for working with operators.</pre>
+                <pre><b>Made By: </b>Neko Tape</pre>
+                <pre class="update-date">Last Updated: 01/06/2025</pre>
+            </div>
+        </div>
     </div>
-  </div>
 </body>
+
+<footer>
+    <span>Lemon's Extension Gallery is not affiliated with TurboWarp, Scratch, The Scratch Team, or the Scratch Foundation.</span>
+</footer>
+
 </html>
